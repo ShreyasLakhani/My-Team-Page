@@ -37,6 +37,33 @@ a{
     flex-wrap: wrap;
 }
 
+.card{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#person_1,
+#person_3,
+#person_4,
+#person_6 {
+    writing-mode: vertical-rl;
+    font-family: Poppins;
+    height: 117px;
+    padding-right: 76px;
+    padding-top: 56px;
+}
+
+#person_2, 
+#person_5{
+    writing-mode: vertical-rl;
+    font-family: Poppins;
+    height: 117px;
+    padding-right: 76px;
+    padding-top: 105px;
+}
+
+
 .mid div{
     flex-basis: 33%;   
 }
@@ -89,6 +116,29 @@ img{
         height: 30vh;
         width: 35vw;
         padding: 10px;
+    }
+
+    #person_1,
+    #person_3,
+    #person_5{
+        
+        writing-mode: vertical-rl;
+    font-family: Poppins;
+    width: 8px;
+    height: 81px;
+    padding-top: 16px;
+    font-size: 11px;    
+    }
+
+    #person_2,
+    #person_4,
+    #person_6{
+        writing-mode: vertical-rl;
+        font-family: Poppins;
+        width: 8px;
+        height: 81px;
+        padding-top: 105px;
+        font-size: 11px; 
     }
 
     .mid{
